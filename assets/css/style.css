@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 body{
-    background-color: orange;
+    /* background-color: orange; */
     height: 100vh;
      /* position: relative; */
      /* display: flex;
      justify-content: center;
      align-items: center; */
 
-     /* background-image: linear-gradient(rgb(255, 0, 0,0.1),rgb(255, 0, 0.1)), url(/images/img.jpeg); */
+     background-image: linear-gradient(rgb(255, 0, 0,0.1),rgb(255, 0, 0.1)), url(/images/img.jpeg);
           /* background-image: url(/images/img.jpeg); */
-          height: 100%;
-          width: 100%;
-
+          /* background-repeat: no-repeat; */
+          background-size: 100% 100%;
+         object-fit: contain;
+        
+         height: 100vh;
+    
 
 }
 body h1{

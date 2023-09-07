@@ -11,7 +11,7 @@ body{
      justify-content: center;
      align-items: center; */
 
-     background-image: linear-gradient(rgb(255, 0, 0,0.1),rgb(255, 0, 0.1)), url(/images/img.jpeg);
+     /* background-image: linear-gradient(rgb(255, 0, 0,0.1),rgb(255, 0, 0.1)), url(/images/img.jpeg); */
           /* background-image: url(/images/img.jpeg); */
           height: 100%;
           width: 100%;
@@ -49,6 +49,7 @@ body:hover{
  transform:translateY(-30px) scale(2) rotate(10deg);
  color: black; 
  font-size: 100px;
+ background-repeat: no-repeat;
 
 }
 

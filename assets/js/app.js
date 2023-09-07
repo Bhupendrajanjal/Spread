@@ -1,18 +1,20 @@
 var cl = console.log;
 const spread = document.getElementById("spread");
-// let text = spread.innerText
-// cl(text)
-// let arr = [...text];
-// cl(arr)
-// let speandArr = arr.map(ele=>{
+//i know that then get value = [let text = spread.innertext];
+
+// let text = spread.innerText;
+// // cl(text) // then converted into array
+// let Array = [...text];
+// // cl(Array)
+
+// let spreads = Array.map(ele=>{
 //     return `<span>${ele}</span>`
 // })
+// cl(spreads)
 
-// cl(speandArr)
+// let str = spreads.join("");
+// cl(str)
 
-// let speandHtml = speandArr.join("");
-// cl(speandHtml)
-// spread.innerHTML = speandHtml
+// spread.innerHTML= str
 
-//firstly get the spread then convert 
-spread.innerHTML= [...spread.innerText].map(ele=>`<span>${ele}</span>`).join("");
+spread.innerHTML=[...spread.innerText].map(ele=>`<span>${ele}</span>`).join("")
